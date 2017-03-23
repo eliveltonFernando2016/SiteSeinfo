@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>SEINFO16</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">-->
+    <link rel="stylesheet" href="material.css">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+  <body>
+      
+      <!-- Contem a Pagina inteira -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <!-- Cabecario -->
+      <div class="zora-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="zora-title mdl-layout-title">
+            <img class="zora-logo-image" src="images/android-logo.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="zora-header-spacer mdl-layout-spacer"></div>
+          <div class="zora-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+          <!-- Navigation -->
+          <div class="zora-navigation-container">
+            <nav class="zora-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://docs.google.com/forms/d/e/1FAIpQLSefDx4CVcMQH8g-E9vom7_Csg35IQ0FPn0uu0ygYqBOIwH6Ow/closedform">Inscrições</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Lotes</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Calendario</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Fotos</a>
+            </nav>
+          </div>
+          <span class="zora-mobile-title mdl-layout-title">
+            <img class="zora-logo-image" src="images/android-logo.png">
+          </span>
+          <button class="zora-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+        <!-- Fim Cabecario -->
+      <!--Menu lateral-->
+      <div class="zora-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="zora-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Lotes</a>
+          <a class="mdl-navigation__link" href="">Calendario</a>
+          <a class="mdl-navigation__link" href="">Convidados</a>
+          <a class="mdl-navigation__link" href="">Inscricoes</a>
+          <a class="mdl-navigation__link" href="">Fotos</a>
+          <div class="zora-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Regulamentos</span>
+          <a class="mdl-navigation__link" href="">Termo de inscrição</a>
+          <a class="mdl-navigation__link" href="">Submissão trabalhos</a>
+          <a class="mdl-navigation__link" href="">Patrocínio</a>
+          <a class="mdl-navigation__link" href="">Gincana</a>
+          <div class="zora-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Atividades</span>
+          <a class="mdl-navigation__link" href="">Palestras</a>
+          <a class="mdl-navigation__link" href="">Minicursos</a>
+          <a class="mdl-navigation__link" href="">Competiçao de programaçao</a>
+          <a class="mdl-navigation__link" href="">Apresentaçao de trabalhos</a>
+          <a class="mdl-navigation__link" href="">Gincana esportiva</a>
+        </nav>
+      </div>
+      <!--Fim Menu lateral-->
+      <!-- Conteudo -->
+      <div class="zora-content mdl-layout__content">
+        <a name="top"></a>
+        
+<!-- Quadro 1 -->
+        <div class="zora-more-section mdl-typography--text-center">
+          <div class="mdl-typography--display-3">Cronograma</div><br/>
+<div class="zora-table-cronograma">
+        <table class="mdl-data-table">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma" colspan="2">Data-hora</th>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma">Segunda-feira</th>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma">Terça-feira</th>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma">Quarta-feira</th>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma">Quinta-feira</th>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma">Sexta-feira</th>
+    </tr>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma">Período</th>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma">Início</th>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma">26/09/16</th>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma">27/09/16</th>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma">28/09/16</th>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma">29/09/16</th>
+      <th class="mdl-data-table__cell--non-numeric cell-cronograma">20/09/16</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Manhã -->
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma mdl-data-table__header--sorted-ascending" rowspan="5">Manhã</td>
+      <td class="" rowspan="2">08:30</td>
+      <td class="" rowspan="2"></td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma zora-tooltip">Minicurso M1 <br/> Radames <br/> Arduínio <br/> E104<span class="zora-tooltiptext mdl-typography--caption">Este minicurso dara uma visão sobre arduíno. Ministrado por Radames Halmeman, professor da UTFPR-CM.</span></td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso M1 <br/> Radames <br/> Arduínio <br/> E104</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso M1 <br/> Radames <br/> Arduínio <br/> E104</td>
+      <td class="" rowspan="2"></td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso I1 <br/> Weliton <br/> Uniface <br/> E105</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso I2 <br/> Valdir <br/> API's <br/> E105</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso I3 <br/> José <br/> DevOps <br/> E105</td>
+    </tr>
+    <tr>
+      <td class="">10:00</td>
+      <td class="mdl-data-table__cell--non-numeric  cell-cronograma" colspan="5">Intervalo</td>
+    </tr>
+    <tr>
+      <td class="" rowspan="2">10:20</td>
+      <td class="mdl-data-table__cell--non-numeric" rowspan="2">Warm-up <br/> Competição de Programação <br/> Guilherme <br/> E007</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso M1 <br/> Radames <br/> Arduínio <br/> E104</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso M1 <br/> Radames <br/> Arduínio <br/> E104</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso M1 <br/> Radames <br/> Arduínio <br/> E104</td>
+      <td class="" rowspan="2"></td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso I1 <br/> Weliton <br/> Uniface <br/> E105</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso I2 <br/> Valdir <br/> API's <br/> E105</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso I3 <br/> José <br/> DevOps <br/> E105</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>12:00</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma" colspan="5">Almoço</td>
+    </tr>
+    <!-- Tarde -->
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma mdl-data-table__header--sorted-ascending" rowspan="8">Tarde</td>
+      <td class="" rowspan="3">14:00</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma" rowspan="3">Competição de Programação <br/> Guilherme <br/> E007</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso T1 <br/> Wagner <br/> Segurança <br/> E100</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso T1 <br/> Wagner <br/> Segurança <br/> E100</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso T1 <br/> Wagner <br/> Segurança <br/> E100</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma" rowspan="3">Evento de Confraternização <br/> Ginásio</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso T2 <br/> Rogério <br/> Linux <br/> E007</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso T2 <br/> Rogério <br/> Linux <br/> E007</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso T2 <br/> Rogério <br/> Linux <br/> E007</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso I1 <br/> Weliton <br/> Uniface <br/> E105</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso I2 <br/> Valdir <br/> API's <br/> E105</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso I3 <br/> José <br/> DevOps <br/> E105</td>
+    </tr>
+    <tr>
+      <td class="">15:30</td>
+      <td class="mdl-data-table__cell--non-numeric  cell-cronograma" colspan="5">Intervalo</td>
+    </tr>
+    <tr>
+      <td class="" rowspan="4">15:50</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma" rowspan="2">Competição de Programação <br/> Guilherme <br/> E007</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso T1 <br/> Wagner <br/> Segurança <br/> E100</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso T1 <br/> Wagner <br/> Segurança <br/> E100</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso T1 <br/> Wagner <br/> Segurança <br/> E100</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma" rowspan="4">Evento de Confraternização <br/> Ginásio</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso T2 <br/> Rogério <br/> Linux <br/> E007</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso T2 <br/> Rogério <br/> Linux <br/> E007</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso T2 <br/> Rogério <br/> Linux <br/> E007</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma" rowspan="2">Oficina Inovasão Empresarial <br/> Eduardo <br/> Anfiteatro</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso I1 <br/> Weliton <br/> Uniface <br/> E105</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso I2 <br/> Valdir <br/> API's <br/> E105</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Minicurso I3 <br/> José <br/> DevOps <br/> E105</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Sessão Técnica I <br/> Mini-auditório</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Sessão Técnica II <br/> Mini-auditório</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Sessão Técnica III <br/> Mini-auditório</td>
+    </tr>
+    <!-- Noite -->
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma mdl-data-table__header--sorted-ascending" rowspan="8">Tarde</td>
+      <td class="">17:20</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Jantar</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma" rowspan="2" colspan="4">Jantar</td>
+    </tr>
+    <tr>
+      <td class="">19:00</td>
+      <td class="mdl-data-table__cell--non-numeric  cell-cronograma" rowspan="2">Cerimonial de Abertura <br/> Palestra de Abertura <br/> Celso Gonçalves Jr <br/> Dez estratégias para arruinar <br/> sua carreira</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma mdl-data-table__header--sorted-ascending" rowspan="3">Noite</td>
+      <td>19:30</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Palestra 2 <br/> Roberto <br/> Visão Sociotécnica</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Palestra 4 <br/> Guilerme <br/> Angular JS</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Palestra 6 <br/> Emerson <br/> Forense Computacional</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="">20:30</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma" colspan="5">Intervalo</td>
+    </tr>
+    <tr>
+      <td>20:50</td>
+      <td></td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Palestra 3 <br/> Fernando <br/> Casper JS</td>
+      <td class="mdl-data-table__cell--non-numeric cell-cronograma">Palestra 5 <br/> Fabio <br/> Threads Ruby</td>
+      <td class=""></td>
+      <td class=""></td>
+      <td></td>
+    </tr>
+</div>
+  </tbody>
+</table>
+</div>  
+        </div>
+        <!-- Fim Quadro 1 -->
+        
+        <!-- Rodape -->
+        <footer class="zora-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+            <div class="mdl-mega-footer--left-section">
+              <button class="mdl-mega-footer--social-btn"></button>
+              &nbsp;
+              <button class="mdl-mega-footer--social-btn"></button>
+              &nbsp;
+              <button class="mdl-mega-footer--social-btn"></button>
+            </div>
+            <div class="mdl-mega-footer--right-section">
+              <a class="mdl-typography--font-light" href="#top">
+                Back to Top
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mdl-mega-footer--middle-section">
+            <p class="mdl-typography--font-light">Satellite imagery: © 2014 Astrium, DigitalGlobe</p>
+            <p class="mdl-typography--font-light">Some features and devices may not be available in all areas</p>
+          </div>
+
+          <div class="mdl-mega-footer--bottom-section">
+            <a class="zora-link zora-link-menu mdl-typography--font-light" id="version-dropdown">
+              Versions
+              <i class="material-icons">arrow_drop_up</i>
+            </a>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
+              <li class="mdl-menu__item">5.0 Lollipop</li>
+              <li class="mdl-menu__item">4.4 KitKat</li>
+              <li class="mdl-menu__item">4.3 Jelly Bean</li>
+              <li class="mdl-menu__item">Android History</li>
+            </ul>
+            <a class="zora-link zora-link-menu mdl-typography--font-light" id="developers-dropdown">
+              For Developers
+              <i class="material-icons">arrow_drop_up</i>
+            </a>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
+              <li class="mdl-menu__item">App developer resources</li>
+              <li class="mdl-menu__item">Android Open Source Project</li>
+              <li class="mdl-menu__item">Android SDK</li>
+              <li class="mdl-menu__item">Android for Work</li>
+            </ul>
+            <a class="zora-link mdl-typography--font-light" href="">Blog</a>
+            <a class="zora-link mdl-typography--font-light" href="">Privacy Policy</a>
+          </div>
+
+        </footer>
+        <!-- Fim Rodape -->
+      </div>
+      <!-- Fim Conteudo -->
+    </div>
+      <!-- Fim Pagina -->
+    
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+</html>
