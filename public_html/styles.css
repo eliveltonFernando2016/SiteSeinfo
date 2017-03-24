@@ -109,7 +109,7 @@ a img{
 }
 
 .zora-navigation .mdl-navigation__link:hover {
-    border-bottom: 4px solid #883F6A;
+    border-bottom: 4px solid #214478;
 }
 
 .zora-search-box {
@@ -148,7 +148,7 @@ a img{
 
 .zora-drawer .mdl-layout-title {
     position: relative;
-    background: #883f6a;
+    background: #214478;
     height: 160px;
 }
 
@@ -331,7 +331,7 @@ a img{
 
 .zora-alt-link {
     text-decoration: none;
-    color: #883f6a !important;
+    color: #214478 !important;
     font-size: 16px;
     float: right !important;
 }
@@ -430,7 +430,7 @@ a img{
 }
 
 .zora-footer a:hover {
-    color: #883F6A;
+    color: #214478;
 }
 
 .zora-footer .mdl-mega-footer--top-section::after {
