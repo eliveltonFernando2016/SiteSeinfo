@@ -361,7 +361,7 @@ a img{
 }
 
 .zora-customized-section-image {
-    background: url('images/devices.jpg') center top no-repeat;
+    background: url('devices.jpg') center top no-repeat;
     background-size: cover;
     height: 400px;
 }
@@ -425,7 +425,8 @@ a img{
 
 .zora-footer {
     background-color: #fafafa;
-    position: relative;
+    float: left;
+    width: 96%;
 }
 
 .zora-footer a:hover {
@@ -449,7 +450,7 @@ a img{
 }
 
 .zora-footer .mdl-mega-footer--right-section a .material-icons {
-    position: relative;
+    float: right;
     top: 6px;
 }
 
@@ -597,4 +598,28 @@ a img{
 }
 .mdl-data-table tbody tr:hover {
     background-color: rgb(255,255,255) !important; 
+}
+.realizacao{
+    float: left;
+}
+
+.logoUtf{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-image: url('logo.png');
+    background-size: 100px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logoCacic{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-image: url('cacic.png');
+    background-size: 100px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20px;
 }
