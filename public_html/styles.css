@@ -48,6 +48,8 @@ a img{
 .zora-logo-image {
     height: 28px;
     width: 140px;
+    background-size: auto 28px;
+    
 }
 
 /*cor nav-bar*/
