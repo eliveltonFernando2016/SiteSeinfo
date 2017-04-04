@@ -291,7 +291,7 @@ a img{
 
 .zora-letreiro-section {
     position: relative;
-    background: url('seinfo16.jpg') center bottom no-repeat fixed;
+    background: url('/images/seinfo16.jpg') center bottom no-repeat fixed;
     background-size: cover;
     height: 600px;
 }
@@ -363,7 +363,7 @@ a img{
 }
 
 .zora-customized-section-image {
-    background: url('devices.jpg') center top no-repeat;
+    background: url('/images/devices.jpg') center top no-repeat;
     background-size: cover;
     height: 400px;
 }
@@ -618,7 +618,7 @@ a img{
     width: 100px;
     height: 100px;
     float: left;
-    background-image: url('logo.png');
+    background-image: url('/images/logo.png');
     background-size: 100px auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -628,7 +628,7 @@ a img{
     width: 100px;
     height: 100px;
     float: left;
-    background-image: url('cacic.png');
+    background-image: url('/images/cacic.png');
     background-size: 100px auto;
     background-repeat: no-repeat;
     background-position: center;
