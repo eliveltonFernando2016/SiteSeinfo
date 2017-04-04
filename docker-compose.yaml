@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  seinfo:
+    build: .
+    image: seinfo
+    ports:
+      - 80:3000
