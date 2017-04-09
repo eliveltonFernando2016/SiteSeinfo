@@ -467,6 +467,10 @@ a img{
     cursor: pointer;
 }
 
+.zora-list-title{
+    margin-top: 50px;
+}
+
 /* Tooltip container */
 .zora-tooltip {
     position: relative;
