@@ -291,7 +291,7 @@ a img{
 
 .zora-letreiro-section {
     position: relative;
-    background: url('seinfo16.jpg') center bottom no-repeat fixed;
+    background: url('images/seinfo16.jpg') center bottom no-repeat fixed;
     background-size: cover;
     height: 600px;
 }
