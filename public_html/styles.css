@@ -622,7 +622,7 @@ a img{
     width: 100px;
     height: 100px;
     float: left;
-    background-image: url('logo.png');
+    background-image: url('images/logo.png');
     background-size: 100px auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -632,7 +632,7 @@ a img{
     width: 100px;
     height: 100px;
     float: left;
-    background-image: url('cacic.png');
+    background-image: url('images/cacic.png');
     background-size: 100px auto;
     background-repeat: no-repeat;
     background-position: center;
