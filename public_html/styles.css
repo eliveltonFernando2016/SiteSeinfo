@@ -49,7 +49,7 @@ a img{
     height: 28px;
     width: 140px;
     background-size: auto 28px;
-    
+
 }
 
 /*cor nav-bar*/
@@ -370,7 +370,6 @@ a img{
 
 .zora-more-section {
     padding: 80px 0;
-    max-width: 1044px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -427,6 +426,12 @@ a img{
 }
 
 .zora-table-cronograma{
+    width: 1201.02px;
+    position: relative;
+    top:50%;
+    left: 50%;
+    margin-left: -600.51px;
+    cursor: default;
 }
 
 .cell-cronograma{text-align: center !important; border: 1px solid black !important;}
@@ -612,9 +617,9 @@ a img{
     background-color: rgb(255,255,255) !important; 
 }
 .mdl-dialog-card {
-  border: none;
-  box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
-  width: 600px; }
+    border: none;
+    box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
+    width: 600px; }
 
 /*Fim Resets*/
 
@@ -647,40 +652,40 @@ a img{
 .android-card-container {
 }
 
-  .android-card-container .mdl-card__media {
+.android-card-container .mdl-card__media {
     overflow: hidden;
     background: transparent;
-  }
+}
 
-    .android-card-container .mdl-card__media img {
-      width: 100%;
-    }
+.android-card-container .mdl-card__media img {
+    width: 100%;
+}
 
-  .android-card-container .mdl-card__title {
+.android-card-container .mdl-card__title {
     background: transparent;
     height: auto;
-  }
+}
 
-  .android-card-container .mdl-card__title-text {
+.android-card-container .mdl-card__title-text {
     color: black;
     height: auto;
-  }
+}
 
-  .android-card-container .mdl-card__supporting-text {
+.android-card-container .mdl-card__supporting-text {
     height: auto;
     color: black;
     padding-bottom: 56px;
-  }
+}
 
-  .android-card-container .mdl-card__actions {
+.android-card-container .mdl-card__actions {
     position: absolute;
     bottom: 0;
-  }
+}
 
-  .android-card-container .mdl-card__actions a {
+.android-card-container .mdl-card__actions a {
     border-top: none;
     font-size: 16px;
-  }
+}
 
 /*Cronograma*/
 /*Meio-periodo*/
