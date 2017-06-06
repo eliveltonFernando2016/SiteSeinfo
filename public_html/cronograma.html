@@ -216,7 +216,7 @@
                     <tr>
                         <td class="mdl-data-table__cell--non-numeric cell-cronograma mdl-data-table__header--sorted-ascending ccabecario2" rowspan="3">Noite</td>
                         <td class="cell-cronograma ccabecario2">19:30</td>
-                        <td class="mdl-data-table__cell--non-numeric cell-cronograma cpalestra">Fábio Rogério SJ</br><b>Programação Mobile</b></td>
+                        <td class="mdl-data-table__cell--non-numeric cell-cronograma cpalestra">Fábio Rogério SJ</br><b><button id="show-modal-p2" type="button" class="mdl-button" onclick = "parametro(this, '#modal-p2')">Programação Mobile</button></b></td>
                         <td class="mdl-data-table__cell--non-numeric cell-cronograma cpalestra">André de Moares</br><b>Desenvolvimento Android</b>
                         <td class="mdl-data-table__cell--non-numeric cell-cronograma cpalestra">Maricy Caregnato</br><b>Data Sciente</b></td>
                         <td class="cell-cronograma  cvago"></td>
@@ -241,19 +241,32 @@
         <!-- Fim Quadro 1 -->
         <!-- Modals -->
         <!-- Palestra 1 -->
-<dialog class="mdl-dialog mdl-dialog-card" id="modal-p1">
-  <div class="mdl-dialog__content">
-    <div><img src="images/palestras/anderson_araujo.jpg" class=" mdl-dialog-card-image"/>
-      <div class="mdl-typography--display-1">Inteligência Artificial</div>
-      <span class="mdl-typography--body-1">Aplicação de técnicas de aprendizado por reforço em jogos digitais</span></div><br/>
-    <div><span class="mdl-typography--title">Anderson Araújo</span><br/>
-      <span class="mdl-typography--caption">Possui graduação em Ciência da Computação pela UFMS (2004), obteve o título de mestre UFPR (2006) e possui o título de doutor pelo ITA (2014). Trabalhou ativamente como pesquisador nos grupos de pesquisa: IMAGO (UFPR) e AIRGroup (ITA). Foi professor na Fatec (São José dos Campos-SP) e atualmente é professor adjunto na UFMS. Atua principalmente nos seguintes temas: Aprendizado de Máquina, Visão Computacional, Agentes Inteligentes e Aprendizado por Reforço.</span></div>
-    </div>
-    <div class="mdl-dialog__actions">
-        <button type="button" class="mdl-button">Fechar</button>
-    </div>
-</dialog>
+        <dialog class="mdl-dialog mdl-dialog-card" id="modal-p1">
+          <div class="mdl-dialog__content">
+            <div><img src="images/palestras/anderson_araujo.jpg" class=" mdl-dialog-card-image"/>
+              <div class="mdl-typography--display-1">Inteligência Artificial</div>
+              <span class="mdl-typography--body-1">Aplicação de técnicas de aprendizado por reforço em jogos digitais</span></div><br/>
+            <div><span class="mdl-typography--title">Anderson Araújo</span><br/>
+              <span class="mdl-typography--caption">Possui graduação em Ciência da Computação pela UFMS (2004), obteve o título de mestre UFPR (2006) e possui o título de doutor pelo ITA (2014). Trabalhou ativamente como pesquisador nos grupos de pesquisa: IMAGO (UFPR) e AIRGroup (ITA). Foi professor na Fatec (São José dos Campos-SP) e atualmente é professor adjunto na UFMS. Atua principalmente nos seguintes temas: Aprendizado de Máquina, Visão Computacional, Agentes Inteligentes e Aprendizado por Reforço.</span></div>
+            </div>
+            <div class="mdl-dialog__actions">
+                <button type="button" class="mdl-button">Fechar</button>
+            </div>
+        </dialog>
         <!-- Fim Palestra 1 -->
+
+        <dialog class="mdl-dialog mdl-dialog-card" id="modal-p2">
+          <div class="mdl-dialog__content">
+            <div><img src="images/palestras/anderson_araujo.jpg" class=" mdl-dialog-card-image"/>
+              <div class="mdl-typography--display-1">Inteligência do Zé</div>
+              <span class="mdl-typography--body-1">Aplicação de técnicas de aprendizado por reforço em jogos digitais</span></div><br/>
+            <div><span class="mdl-typography--title">Anderson Araújo</span><br/>
+              <span class="mdl-typography--caption">Possui graduação em Ciência da Computação pela UFMS (2004), obteve o título de mestre UFPR (2006) e possui o título de doutor pelo ITA (2014). Trabalhou ativamente como pesquisador nos grupos de pesquisa: IMAGO (UFPR) e AIRGroup (ITA). Foi professor na Fatec (São José dos Campos-SP) e atualmente é professor adjunto na UFMS. Atua principalmente nos seguintes temas: Aprendizado de Máquina, Visão Computacional, Agentes Inteligentes e Aprendizado por Reforço.</span></div>
+            </div>
+            <div class="mdl-dialog__actions">
+                <button type="button" class="mdl-button">Fechar</button>
+            </div>
+        </dialog>
         <!-- Fim Modals -->
 
 
@@ -279,25 +292,7 @@
         <!-- Scripts -->
         <!-- Palestra 1 -->
         <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-        <script type="text/javascript">
-        (function() {
-            'use strict';
-            var dialog = document.querySelector('#modal-p1');
-            var closeButton = dialog.querySelector('button');
-            var showButton = document.querySelector('#show-modal-p1');
-            if (! dialog.showModal) {
-                dialogPolyfill.registerDialog(dialog);
-            }
-            var closeClickHandler = function(event) {
-                dialog.close();
-            };
-            var showClickHandler = function(event) {
-                dialog.showModal();
-            };
-            showButton.addEventListener('click', showClickHandler);
-            closeButton.addEventListener('click', closeClickHandler);
-        }());
-        </script>
+        <script type="text/javascript" src="script.js"></script>
         <!-- Fim Palestra 1 -->
         <!-- Fim Scripts -->
     </body>
