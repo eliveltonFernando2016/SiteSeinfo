@@ -392,11 +392,12 @@ a img{
 }
 
 .zora-card-container .mdl-card__media {
-    overflow: hidden;
+    overflow-x:auto;
     background: transparent;
 }
 
 .zora-card-container .mdl-card__media img {
+    overflow-x:auto;
     width: 100%;
 }
 
@@ -427,8 +428,8 @@ a img{
 }
 
 .zora-table-cronograma{
-    width: 1380px;
-    position: relative;
+    overflow-x:auto;
+    width: 100%;
     top:50%;
     left: -15%;
     cursor: default;
@@ -658,12 +659,13 @@ a img{
 }
 
 .android-card-container .mdl-card__media {
-    overflow: hidden;
+    overflow-x:auto;
     background: transparent;
 }
 
 .android-card-container .mdl-card__media img {
-    width: 100%;
+    overflow-x:auto;
+    width: 20%;
 }
 
 .android-card-container .mdl-card__title {

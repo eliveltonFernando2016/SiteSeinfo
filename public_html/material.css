@@ -3028,7 +3028,7 @@ input.mdl-button[type="submit"] {
   box-sizing: border-box; }
 
 .mdl-card__media {
-  background-color: rgb(255,64,129);
+  background-color: rgb(1,1,1,0);
   background-repeat: repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -3084,6 +3084,7 @@ input.mdl-button[type="submit"] {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .mdl-card__title-text {
+  margin: 0 auto;
   -webkit-align-self: flex-end;
       -ms-flex-item-align: end;
           align-self: flex-end;
@@ -3098,7 +3099,7 @@ input.mdl-button[type="submit"] {
   overflow: hidden;
   -webkit-transform-origin: 149px 48px;
           transform-origin: 149px 48px;
-  margin: 0; }
+  }
 .mdl-card__title-text-2 {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
